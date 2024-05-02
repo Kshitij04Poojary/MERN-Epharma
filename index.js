@@ -23,7 +23,7 @@ const connectDB=async()=>{
 }
 dotenv.config()
 app.use(express.json())
-app.use(cors({origin:"*",credentials:true}))
+app.use(cors({origin:"https://epharma-d1wtf0rsc-kshitijs-projects-585e63ee.vercel.app",credentials:true}))
 app.use(cookieParser())
 // Routes
 app.use("/api/auth",authRoute)
